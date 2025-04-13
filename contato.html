@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Entre em contato com a equipe da plataforma de apoio a imigrantes." />
+        <title>Contato</title>
+        <link rel="stylesheet" href="estilo.css" />
+    </head>
+    <body>
+
+        <header>
+            <div class="header-container">
+                <h1>Plataforma de Apoio a Imigrantes</h1>
+                <nav aria-label="Menu principal">
+                    <ul class="nav-list">
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="curriculos.html">Currículos</a></li>
+                        <li><a href="vagas.html">Vagas</a></li>
+                        <li><a href="empresas.html">Empresas</a></li>
+                        <li><a href="diversidade.html">Diversidade</a></li>
+                        <li><a href="contato.html" aria-current="page">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="contato-container">
+            <h2 class="contato-titulo">Entre em Contato</h2>
+
+            <form class="form-contato" action="#" method="post">
+                <div class="campo-form">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required />
+                </div>
+
+                <div class="campo-form">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+
+                <div class="campo-form">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="botao-enviar">Enviar</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Plataforma de Apoio a Imigrantes • Projeto Educacional</p>
+        </footer>
+
+    </body>
+</html>
