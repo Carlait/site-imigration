@@ -173,3 +173,43 @@ footer {
 .card-empresa:hover {
     transform: translateY(-4px);
 }
+
+.diversidade-titulo {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.diversidade-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.grid-diversidade {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.card-diversidade {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-left: 4px solid #004080;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.card-diversidade:hover {
+    transform: translateY(-4px);
+}
+  
+.texto-diversidade {
+    background-color: #e6f0ff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+}
