@@ -32,11 +32,11 @@ Formulário para empresas cadastrarem suas vagas, com campos para:
 
     Título
 
-    Descrição
+    Setor
 
-    Requisitos
+    Iniciativa
 
-    Contato
+    
 
 Observação: Assim como no currículo, os dados não são armazenados. A ideia é simular o modelo de um anúncio de vaga.
 Listagem de Vagas (Modelo HTML)
