@@ -107,3 +107,38 @@ footer {
 .card-curriculo:hover {
     transform: translateY(-5px);
 }
+
+.vagas-titulo {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.vagas-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.lista-vagas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.card-vaga {
+    background-color: #ffffff;
+    border-left: 4px solid #004080;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 300px;
+    flex: 1 1 280px;
+    transition: transform 0.2s ease;
+}
+
+.card-vaga:hover {
+    transform: translateY(-4px);
+}
