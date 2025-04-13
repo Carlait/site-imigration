@@ -142,3 +142,34 @@ footer {
 .card-vaga:hover {
     transform: translateY(-4px);
 }
+
+.empresas-titulo {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.empresas-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.grid-empresas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.card-empresa {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-left: 4px solid #004080;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.card-empresa:hover {
+    transform: translateY(-4px);
+}
