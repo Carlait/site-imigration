@@ -5,18 +5,27 @@
   }
 
 html{
+    height: 100%;
     font-size: 100%;
+}
+main {
+    flex: 1;
 }
 
 body{
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9fa;
-    color: #212529;
+    color: #0c0353;
     line-height: 1.6;
 }
 
 header {
-    background-color: #004080;
+    background-color: linear-gradient(130deg, #231a6f, #0f054c);
     color: #ffffff;
     padding: 1.5rem 1rem;
 }
@@ -70,17 +79,19 @@ header {
 }
 
 footer {
-    background-color: #004080;
+    background: linear-gradient(130deg, #231a6f, #0f054c);
     color: #ffffff;
+    width: 100%;
     text-align: center;
     padding: 1rem;
-    margin-top: 2rem;
+    font-size: 0.9rem;
 }
 
 .curriculo-titulo {
     text-align: center;
     margin-bottom: 2rem;
     font-size: 1.8rem;
+    color: #ffffff;
 }
 
   .curriculo-container {
@@ -102,6 +113,10 @@ footer {
     border-left: 4px solid #004080;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     transition: transform 0.2s ease;
+    margin: 4px 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    
 }
 
 .card-curriculo:hover {
@@ -112,6 +127,7 @@ footer {
     text-align: center;
     margin-bottom: 2rem;
     font-size: 1.8rem;
+    color: #ffffff;
 }
 
 .vagas-container {
@@ -147,6 +163,7 @@ footer {
     text-align: center;
     margin-bottom: 2rem;
     font-size: 1.8rem;
+    color: #ffffff;
 }
 
 .empresas-container {
@@ -178,6 +195,7 @@ footer {
     text-align: center;
     margin-bottom: 2rem;
     font-size: 1.8rem;
+    color: #ffffff;
 }
 
 .diversidade-container {
@@ -217,6 +235,7 @@ footer {
 .contato-titulo {
     text-align: center;
     margin-bottom: 2rem;
+    color: #ffffff;
     font-size: 1.8rem;
 }
   
@@ -224,6 +243,7 @@ footer {
     max-width: 600px;
     margin: 0 auto;
     padding: 2rem;
+    color: #ffffff;
 }
   
 .form-contato {
@@ -260,4 +280,87 @@ textarea {
   
 .botao-enviar:hover {
     background-color: #003060;
+}
+
+.hero_bg_box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    overflow: hidden;
+    z-index: -1;
+}
+.hero_bg_box .bg_img_box {
+    min-width: 100%;
+    min-height: 100%;
+}
+  
+.hero_bg_box img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.informacoes-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.informacoes-titulo {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #0c0353;
+}
+
+.informacoes-secao {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.informacoes-secao h3 {
+    font-size: 1.6rem;
+    color: #0c0353;
+    margin-bottom: 1rem;
+}
+
+.informacoes-secao p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.informacoes-secao ul {
+    list-style: none;
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.informacoes-secao ul li {
+    margin-bottom: 0.5rem;
+}
+
+.faq h4 {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    color: #004080;
+}
+
+.faq p {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 0.5rem;
 }
